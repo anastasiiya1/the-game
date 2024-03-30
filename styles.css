@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(57, 56, 56);
+    padding: 50px;
+}
+
+.headding {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: runText 30s linear infinite;
+}
+
+@keyframes runText {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.start-btn{
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: 40px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: tomato;
+
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 0;
+}
+
+.container-child{
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    font-size: 40px;
+}
+
+.basicLightbox{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(35 30 30 / 82%);
+}
+
+.modal{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+
