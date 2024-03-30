@@ -5,6 +5,7 @@ body{
 }
 
 .headding {
+    color: white;
     overflow: hidden;
     white-space: nowrap;
     animation: runText 15s linear infinite;
@@ -54,15 +55,11 @@ body{
     font-size: 40px;
 }
 
-.basicLightbox{
-    background-color: rgb(133 24 88 / 82%)
-}
 
 .modal{
     font-size: 30px;
     font-weight: 700;
     color: white;
-    text-align: center;
 }
 
 
