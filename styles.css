@@ -54,12 +54,13 @@ body{
 
     font-size: 40px;
 }
-/* 
-.basicLightbox{
-    width: 100%;
-    height: 100%;
-} */
 
+.gif{
+    display: block;
+    width: 100%;
+
+    margin-top: 20px;
+}
 
 .modal{
     font-size: 30px;
