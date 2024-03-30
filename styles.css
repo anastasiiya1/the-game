@@ -6,7 +6,7 @@ body{
 .headding {
     overflow: hidden;
     white-space: nowrap;
-    animation: runText 30s linear infinite;
+    animation: runText 15s linear infinite;
 }
 
 @keyframes runText {
