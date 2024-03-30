@@ -1,6 +1,7 @@
 body{
     background-color: rgb(57, 56, 56);
     padding: 50px;
+    transform: translateY(50%)
 }
 
 .headding {
