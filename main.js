@@ -15,6 +15,7 @@ function createMarkup() {
 function handleStart() {
   createMarkup();
   startBtn.disabled = true;
+  startBtn.textContent = 'Hold on...'
 
   const promises = [...container.children].map(() => {
     return new Promise((resolve, reject) => {
@@ -44,8 +45,9 @@ function handleStart() {
           </p>
           </div>`);
           instance.show();
-          
+
           startBtn.disabled = false;
+          startBtn.textContent = 'Start!'
         }
       }, 1000 * (i + 1));
     });
